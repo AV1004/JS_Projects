@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+h1{
+  margin: 20px 540px;
+}
+
+
+#container{
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  padding: 40px;
+  border: 20px solid white;
+  font-size: 40px;
+  margin: 20px;
+  border-radius: 50px;
+}

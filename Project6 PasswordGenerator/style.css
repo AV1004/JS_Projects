@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body::before{
+    content: "";
+    background: url('https://lh3.googleusercontent.com/TX6T8VCr3RYzh5VWx32BDrCn4Y1QczuRx0Ui_egtG474amPgUwG_jMAvkerCPhFJJ8GodjYePkKyOSB93qUFixFnhw=w640-h400-e365-rj-sc0x00ffffff') no-repeat center center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;
+}
+

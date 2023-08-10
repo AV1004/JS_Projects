@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+  color: red;
+}
+
+body::before{
+    content: "";
+    background: url('https://t3.ftcdn.net/jpg/01/68/76/94/240_F_168769418_GHALsqlIr8jlG6iIhIfuSPOr2hnWk53r.jpg') no-repeat center center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;
+}
+
+body div{
+  font-size: 1.5em;
+  margin: 10px;
+}

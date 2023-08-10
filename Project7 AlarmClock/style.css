@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+#head{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+justify-content: center;
+  display: flex;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+      margin-left: 200px;
+    margin-right: 200px;
+      margin-top: 80px;
+  color: white;
+}
+
+#form{
+  border-right: 1px solid white ;
+      margin: 30px;
+    padding-right: 100px;
+}
+
+#img{
+      margin: 30px;
+}
